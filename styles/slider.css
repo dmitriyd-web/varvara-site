@@ -1,0 +1,102 @@
+.akopedsag {
+    width: 100%;
+    color: #fff;
+}
+.akopedsag .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.akopedsag__flex {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.akopedsag__col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    margin-right: 5px;
+}
+.akopedsag__col .swiper-slide {
+    height: 205px !important;
+}
+.akopedsag__prev,
+.akopedsag__next {
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
+}
+.akopedsag__prev {
+    top: -4px;
+    left: 0;
+}
+.akopedsag__next {
+    right: 0;
+    bottom: -5px;
+}
+.akopedsag__next img {
+    transform: rotate(180deg);
+}
+.akopedsag__prev:focus,
+.akopedsag__next:focus {
+    outline: none;
+}
+.akopedsag__thumbs {
+    height: 100%;
+}
+.akopedsag__thumbs .akopedsag__image {
+    transition: 0.25s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+.akopedsag__thumbs .akopedsag__image:hover {
+    opacity: 1;
+}
+.akopedsag__thumbs .swiper-slide-thumb-active .akopedsag__image {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.akopedsag__images {
+    width: calc(75% - 5px);
+    height: 100%;
+}
+.akopedsag__images .akopedsag__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 3s;
+}
+.akopedsag__images .akopedsag__image:hover img {
+    transform: scale(1.1);
+}
+.akopedsag__col .akopedsag__image {
+    width: 100%;
+    height: 205px;
+    overflow: hidden;
+}
+.akopedsag__images .akopedsag__image {
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+}
+.akopedsag__image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}

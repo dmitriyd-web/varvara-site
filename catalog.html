@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VARVARA TREND</title>
+    <meta name="description" content="" />
+	<link href="" rel="shortcut icon" />
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <a class="header-logo" href="/">
+                    <img src="images/logo.svg">
+                </a>
+                <nav class="header-navigation">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="">Каталог</a>
+                            <ul>
+                                <li>
+                                    <a href="/">Верхняя одежда</a>
+                                </li>
+                                <li>
+                                    <a href="/">ЮБКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Костюмы</a>
+                                </li>
+                                <li>
+                                    <a href="/">ТРИКОТАЖ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Платья</a>
+                                </li>
+                                <li>
+                                    <a href="/">БРЮКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Аксессуары</a>
+                                </li>
+                                <li>
+                                    <a href="/">ЛОНГСЛИВ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Рубашки</a>
+                                </li>
+                                <li>
+                                    <a href="/">ФУТБОЛКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Обувь</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/">Индивидуальный пошив</a>
+                        </li>
+                        <li>
+                            <a href="/">Оптовый пошив</a>
+                        </li>
+                        <li>
+                            <a href="/">О нас</a>
+                        </li>
+                        <li>
+                            <a href="/">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="/" class="toggle-search">
+                    <img src="images/serch.svg">
+                </a>
+                <a href="/" class="basket-link">
+                    <img src="images/basket.svg">
+                    <p class="tovars-count">1</p>
+                </a>
+                <form class="search-form" role="search" method="get" action="<?php echo home_url('/') ?>">
+                    <input class="search-form__input" type="text" name="s" id="s" placeholder="Поиск">
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="catalog">
+            <div class="container">
+                <div class="row">
+                    <div class="catalog-title">
+                        <h1>Капсула</h1>
+                        <p>Описание если необходимо.</p>
+                        <button class="filter-btn">
+                            Фильтр
+                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5H16" stroke="#795738" stroke-linecap="round"/>
+                                <path d="M1 7H16" stroke="#795738" stroke-linecap="round"/>
+                                <path d="M1 12.5H16" stroke="#795738" stroke-linecap="round"/>
+                                <circle cx="5" cy="1.5" r="1" fill="#795738"/>
+                                <circle cx="14" cy="7" r="1" fill="#795738"/>
+                                <circle cx="8" cy="12.5" r="1" fill="#795738"/>
+                            </svg>                              
+                        </button>
+                        <div class="filter">
+                            <img class="close-filter" src="images/close.svg">
+                            <p class="filter-title">Цена</p>
+                            <div id="filter-slider"></div>
+                            <div class="filter-prices">
+                                <p class="filter-prices__min">0</p>
+                                <p class="filter-prices__max">30000</p>
+                            </div>
+                            <div class="filter-size">
+                                <p class="filter-size__title">размер</p>
+                                <div class="filter-size__number">
+                                    <div class="size-item">42</div>
+                                    <div class="size-item size-chosen">44</div>
+                                    <div class="size-item">46</div>
+                                    <div class="size-item">48</div>
+                                    <div class="size-item">50</div>
+                                    <div class="size-item">52</div>
+                                    <div class="size-item">53</div>
+                                </div>
+                            </div>
+                            <div class="filter-buttons">
+                                <button class="btn btn-apply">Применить</button>
+                                <button class="btn btn-reset">Сбросить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-1.png">
+                        </div>
+                        <p class="product-title">Анорак "Джерси"</p>
+                        <p class="product-price">9 770 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-2.png">
+                        </div>
+                        <p class="product-title">Бомбер "Макси" Стёганый</p>
+                        <p class="product-price">14 700 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-3.png">
+                        </div>
+                        <p class="product-title">Бомбер длинный на кнопках</p>
+                        <p class="product-price">14 300 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-4.png">
+                        </div>
+                        <p class="product-title">Бомбер стёганый</p>
+                        <p class="product-price">14 780 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-5.png">
+                        </div>
+                        <p class="product-title">Косуха - куртка Эко кожа</p>
+                        <p class="product-price">14 700 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-6.png">
+                        </div>
+                        <p class="product-title">Косуха - куртка. Экко - кожа - лак</p>
+                        <p class="product-price">16 500 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-7.png">
+                        </div>
+                        <p class="product-title">Косуха- куртка из Эко кожи</p>
+                        <p class="product-price">12 300 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-7.png">
+                        </div>
+                        <p class="product-title">Косуха- куртка из Эко кожи</p>
+                        <p class="product-price">12 300 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-3.png">
+                        </div>
+                        <p class="product-title">Бомбер длинный на кнопках</p>
+                        <p class="product-price">14 300 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-1.png">
+                        </div>
+                        <p class="product-title"></p>
+                        <p class="product-price">5 900 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-4.png">
+                        </div>
+                        <p class="product-title">Бомбер стёганый</p>
+                        <p class="product-price">14 780 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-5.png">
+                        </div>
+                        <p class="product-title">Косуха - куртка Эко кожа</p>
+                        <p class="product-price">14 700 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-6.png">
+                        </div>
+                        <p class="product-title">Косуха - куртка. Экко - кожа - лак</p>
+                        <p class="product-price">16 500 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-image">
+                            <img src="images/tovar-2.png">
+                        </div>
+                        <p class="product-title">Бомбер "Макси" Стёганый</p>
+                        <p class="product-price">14 700 ₽</p>
+                        <div class="product-order">
+                            <a class="btn" href="/">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-brand">
+                    <a class="footer-logo" href="/">
+                        <img src="images/logo.svg">
+                    </a>
+                    <p class="footer-copyright">© Интернет-магазин<br>дизайнерской одежды</p>
+                </div>
+                <div class="footer-info">
+                    <p class="footer-phone"><a href="tel:8-919-940-13-35">8-919-940-13-35</a> - Ирина</p>
+                    <p class="footer-phone"><a href="tel:8-982-963-93-37">8-982-963-93-37</a> - Евгения</p>
+                    <p class="footer-address">г. Тюмень, ул. Орджоникидзе 63А, Центральный универмаг Ц.У.М<br>Улица Российских Дизайнеров 2 этаж, Корнер Варвара-тренд</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="js/nouislider.min.js"></script>
+    <script defer src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VARVARA TREND</title>
+    <meta name="description" content="" />
+	<link href="" rel="shortcut icon" />
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <a class="header-logo" href="/">
+                    <img src="images/logo.svg">
+                </a>
+                <nav class="header-navigation">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="">Каталог</a>
+                            <ul>
+                                <li>
+                                    <a href="/">Верхняя одежда</a>
+                                </li>
+                                <li>
+                                    <a href="/">ЮБКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Костюмы</a>
+                                </li>
+                                <li>
+                                    <a href="/">ТРИКОТАЖ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Платья</a>
+                                </li>
+                                <li>
+                                    <a href="/">БРЮКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Аксессуары</a>
+                                </li>
+                                <li>
+                                    <a href="/">ЛОНГСЛИВ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Рубашки</a>
+                                </li>
+                                <li>
+                                    <a href="/">ФУТБОЛКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Обувь</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/">Индивидуальный пошив</a>
+                        </li>
+                        <li>
+                            <a href="/">Оптовый пошив</a>
+                        </li>
+                        <li>
+                            <a href="/">О нас</a>
+                        </li>
+                        <li>
+                            <a href="/">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="/" class="toggle-search">
+                    <img src="images/serch.svg">
+                </a>
+                <a href="/" class="basket-link">
+                    <img src="images/basket.svg">
+                    <p class="tovars-count">1</p>
+                </a>
+                <form class="search-form" role="search" method="get" action="<?php echo home_url('/') ?>">
+                    <input class="search-form__input" type="text" name="s" id="s" placeholder="Поиск">
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="cart">
+            <div class="container">
+                <div class="row">
+                    <h1>Корзина</h1>
+                    <div class="cart-order">
+                        <div class="cart-order__tovar">
+                            <a class="tovar-image" href="/">
+                                <img src="images/basket-1.png">
+                            </a>
+                            <div class="tovar-info">
+                                <div class="tovar-info__title">
+                                    <p>Анорак “Джерси”</p>
+                                    <img class="delete-tovar" src="images/close.svg">
+                                </div>
+                                <div class="tovar-info__size">
+                                    <p class="size-title">Размер</p>
+                                    <p class="size-count">44</p>
+                                </div>
+                                <div class="tovar-info__counts">
+                                    <p class="counts-title">Количество</p>
+                                    <p class="counts-change">
+                                        <span class="counts-change__remove">-</span>
+                                        <input class="counts-change__total" placeholder="1" value="1">
+                                        <span class="counts-change__add">+</span>
+                                    </p>
+                                </div>
+                                <div class="tovar-info__price">
+                                    <p class="price-title">Стоимость</p>
+                                    <p class="price-total">3 900 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-order__tovar">
+                            <a class="tovar-image" href="/">
+                                <img src="images/basket-2.png">
+                            </a>
+                            <div class="tovar-info">
+                                <div class="tovar-info__title">
+                                    <p>Капор “Джерси”</p>
+                                    <img class="delete-tovar" src="images/close.svg">
+                                </div>
+                                <div class="tovar-info__size">
+                                    <p class="size-title">Размер</p>
+                                    <p class="size-count">44</p>
+                                </div>
+                                <div class="tovar-info__counts">
+                                    <p class="counts-title">Количество</p>
+                                    <p class="counts-change">
+                                        <span class="counts-change__remove">-</span>
+                                        <input class="counts-change__total" placeholder="1" value="1">
+                                        <span class="counts-change__add">+</span>
+                                    </p>
+                                </div>
+                                <div class="tovar-info__price">
+                                    <p class="price-title">Стоимость</p>
+                                    <p class="price-total">3 900 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-order__tovar">
+                            <a class="tovar-image" href="/">
+                                <img src="images/basket-3.png">
+                            </a>
+                            <div class="tovar-info">
+                                <div class="tovar-info__title">
+                                    <p>Лонгслив</p>
+                                    <img class="delete-tovar" src="images/close.svg">
+                                </div>
+                                <div class="tovar-info__size">
+                                    <p class="size-title">Размер</p>
+                                    <p class="size-count">44</p>
+                                </div>
+                                <div class="tovar-info__counts">
+                                    <p class="counts-title">Количество</p>
+                                    <p class="counts-change">
+                                        <span class="counts-change__remove">-</span>
+                                        <input class="counts-change__total" placeholder="1" value="1">
+                                        <span class="counts-change__add">+</span>
+                                    </p>
+                                </div>
+                                <div class="tovar-info__price">
+                                    <p class="price-title">Стоимость</p>
+                                    <p class="price-total">3 900 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-info">
+                        <p class="total-info__count"><span>3</span> товара на сумму</p>
+                        <p class="total-info__price">15 870 ₽</p>
+                    </div>
+                    <button class="btn btn-popup">Оформить заказ</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-brand">
+                    <a class="footer-logo" href="/">
+                        <img src="images/logo.svg">
+                    </a>
+                    <p class="footer-copyright">© Интернет-магазин<br>дизайнерской одежды</p>
+                </div>
+                <div class="footer-info">
+                    <p class="footer-phone"><a href="tel:8-919-940-13-35">8-919-940-13-35</a> - Ирина</p>
+                    <p class="footer-phone"><a href="tel:8-982-963-93-37">8-982-963-93-37</a> - Евгения</p>
+                    <p class="footer-address">г. Тюмень, ул. Орджоникидзе 63А, Центральный универмаг Ц.У.М<br>Улица Российских Дизайнеров 2 этаж, Корнер Варвара-тренд</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay"></div>
+    <div class="popup">
+        <p class="popup-title">Оформление заказа</p>
+        <p class="popup-description">Заполните ваши данные и наш менеджер свяжется с Вами для уточнения деталей заказа и оформления оплаты и доставки</p>
+        <form>
+            <input type="text" name="name" placeholder="Контактное лицо">
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="tel" name="phone" placeholder="+7-___-___-__-__">
+            <p class="popup-person">Нажимая кнопку “Отправить заказ” Вы даете согласие на обработку ваших персональных данных</p>
+            <button type="submit" class="btn btn-submit">Отправить</button>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

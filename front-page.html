@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VARVARA TREND</title>
+    <meta name="description" content="" />
+	<link href="" rel="shortcut icon" />
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <a class="header-logo" href="/">
+                    <img src="images/logo.svg">
+                </a>
+                <nav class="header-navigation">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="">Каталог</a>
+                            <ul>
+                                <li>
+                                    <a href="/">Верхняя одежда</a>
+                                </li>
+                                <li>
+                                    <a href="/">ЮБКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Костюмы</a>
+                                </li>
+                                <li>
+                                    <a href="/">ТРИКОТАЖ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Платья</a>
+                                </li>
+                                <li>
+                                    <a href="/">БРЮКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Аксессуары</a>
+                                </li>
+                                <li>
+                                    <a href="/">ЛОНГСЛИВ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Рубашки</a>
+                                </li>
+                                <li>
+                                    <a href="/">ФУТБОЛКИ</a>
+                                </li>
+                                <li>
+                                    <a href="/">Обувь</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/">Индивидуальный пошив</a>
+                        </li>
+                        <li>
+                            <a href="/">Оптовый пошив</a>
+                        </li>
+                        <li>
+                            <a href="/">О нас</a>
+                        </li>
+                        <li>
+                            <a href="/">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="/" class="toggle-search">
+                    <img src="images/serch.svg">
+                </a>
+                <a href="/" class="basket-link">
+                    <img src="images/basket.svg">
+                    <p class="tovars-count">1</p>
+                </a>
+                <form class="search-form" role="search" method="get" action="<?php echo home_url('/') ?>">
+                    <input class="search-form__input" type="text" name="s" id="s" placeholder="Поиск">
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="main-item">
+                        <img src="images/main-1.png">
+                    </div>
+                    <div class="main-item">
+                        <img src="images/main-2.png">
+                    </div>
+                    <div class="main-item">
+                        <img src="images/main-3.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <div class="row">
+                    <a class="categories-item" href="/">
+                        <img src="images/category-1.png">
+                        <p class="text-right">Верхня одежда</p>
+                    </a>
+                    <a class="categories-item" href="/">
+                        <img src="images/category-2.png">
+                        <p class="text-top">Костюмы</p>
+                    </a>
+                    <a class="categories-item" href="/">
+                        <img src="images/category-3.png">
+                        <p class="text-bottom">Платья</p>
+                    </a>
+                    <a class="categories-item" href="/">
+                        <img src="images/category-4.png">
+                        <p class="text-left">Аксессуары</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-brand">
+                    <a class="footer-logo" href="/">
+                        <img src="images/logo.svg">
+                    </a>
+                    <p class="footer-copyright">© Интернет-магазин<br>дизайнерской одежды</p>
+                </div>
+                <div class="footer-info">
+                    <p class="footer-phone"><a href="tel:8-919-940-13-35">8-919-940-13-35</a> - Ирина</p>
+                    <p class="footer-phone"><a href="tel:8-982-963-93-37">8-982-963-93-37</a> - Евгения</p>
+                    <p class="footer-address">г. Тюмень, ул. Орджоникидзе 63А, Центральный универмаг Ц.У.М<br>Улица Российских Дизайнеров 2 этаж, Корнер Варвара-тренд</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
